@@ -23,7 +23,7 @@ if(player==0 && computerchoice==0 ){
   document.getElementById("rock").innerHTML = "It's a draw";
 }
 else if(player==0 && computerchoice==1 ){
-  document.getElementById("rock").innerHTML = "The computer wins";
+  document.getElementById("rock").innerHTML = "YOU LOSE";
   computerscore+=1;
 }
 else if(player==0 && computerchoice==2 ){
@@ -38,11 +38,11 @@ else if(player==1 && computerchoice==1 ){
   document.getElementById("rock").innerHTML = "It's a draw";
 }
 else if(player==1 && computerchoice==2 ){
-  document.getElementById("rock").innerHTML = "The computer wins";
+  document.getElementById("rock").innerHTML = "YOU LOSE";
   computerscore+=1;
 }
 else if(player==2 && computerchoice==0 ){
-  document.getElementById("rock").innerHTML = "The computer wins";
+  document.getElementById("rock").innerHTML = "YOU LOSE";
   computerscore+=1;
 }
 else if(player==2 && computerchoice==1 ){
